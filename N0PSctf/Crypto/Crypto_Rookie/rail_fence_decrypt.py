@@ -1,0 +1,1 @@
+print("SOMETIMES A FLAG IS BETTER THAN A COOKIE".tolower())

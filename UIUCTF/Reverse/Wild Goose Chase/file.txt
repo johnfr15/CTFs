@@ -1,0 +1,2 @@
+https://uiuctf-2024-rctf-challenge-uploads.storage.googleapis.com/uploads/03bc7c2d9fb98515a73943c81c92e03ef539296dc7a04570b86e93009a284561/Goose.dmp
+https://uiuctf-2024-rctf-challenge-uploads.storage.googleapis.com/uploads/d4a50177a86ff139d34ed607cf090f9bb1ea2864f19ab2b996cb7b3ff880f6e2/evidence.pcapng
