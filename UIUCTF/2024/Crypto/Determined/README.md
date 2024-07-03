@@ -68,7 +68,8 @@ Lets review all of them:
 
 <br>
 
-To resume here is the four operation in its mathematical representation (RSA encryption):  
+To resume here is the four operation in its mathematical representation (RSA encryption): 
+ 
 $$
 c = m^e \mod n
 $$
