@@ -3,17 +3,6 @@ from itertools import permutations
 from SECRET import FLAG, p, q, r
 
 
-
-#
-#M = [
-#    [p, 0, 1, 0, 1],     # User inputs for M[0][2] = 5, M[0][4] = 7
-#    [0, 1, 0, 1, 0],     # User inputs for M[1][1] = 11, M[1][3] = 13
-#    [1, 0, 1, 0, 1],     # User inputs for M[2][0] = 3, M[2][2] = 2, M[2][4] = 4
-#    [0, q, 0, r, 0],     # q and r inserted directly
-#    [1, 0, 1, 0, 0]      # User inputs for M[4][0] = 1, M[4][2] = 9
-#]
-
-
 def inputs():
     print("[DET] First things first, gimme some numbers:")
     M = [
