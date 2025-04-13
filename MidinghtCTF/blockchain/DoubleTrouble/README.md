@@ -136,14 +136,14 @@ Deployer: 0x277506E301F0907b9bB7B954eB5B87aad9DABe92
 Deployed to: 0x36f4B3B999BFd93Ed3Ab664e2371Cf182E2BE333
 Transaction hash: 0x009d9bcd9efdb3cec30ab57a4563e83599f3c74339f073f9cf658fcddaee59ca
 ```
-Deploying the "deployer" contract, the one that will allow me to do the trick
+Deploying the "DoubleDeploy" contract, the one that will allow me to do the trick
 
 <br>
 
 ```bash
 (venv) ➜  DoubleTrouble git:(main) ✗ DOUBLE=0x36f4B3B999BFd93Ed3Ab664e2371Cf182E2BE333
 ```
-Here I store my "deployer" smart contract's public address in env variable `DOUBLE` 
+Here I store my "DoubleDeploy" smart contract's public address in env variable `DOUBLE` 
 
 <br>
 
