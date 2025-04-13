@@ -45,6 +45,12 @@ contract DoubleTrouble {
 
 ```
 
+
+<br>
+We are also given a link to deploy the challenge. Once done, we get the following information:
+
+![connection](image.png)
+
 <br>
 <br>
 
