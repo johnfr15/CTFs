@@ -1,3 +1,11 @@
+Throughout this challenge we will use the `cast` tool from foundry. A powerful tool that will allow us to interact with the blockchain.
+
+you can install it on your machine https://book.getfoundry.sh/
+
+and here is the doc for cli commands https://book.getfoundry.sh/reference/cli/?highlight=cli#cli-reference
+
+<br>
+<br>
 
 ### DoubleTrouble.sol
 ```solidity
