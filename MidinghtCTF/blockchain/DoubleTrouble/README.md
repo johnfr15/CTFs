@@ -2,82 +2,47 @@
 ### DoubleTrouble.sol
 ```solidity
 // Author : Neoreo
-
 // Difficulty : Hard
 
-  
-
 // SPDX-License-Identifier: MIT
-
 pragma solidity ^0.8.26;
 
-  
-
 contract DoubleTrouble {
+    bool public isSolved = false;
+    mapping(address => bool) public validContracts;
 
-bool public isSolved = false;
+    function validate(address _contract) public  {
+        uint256 size;
+        assembly {
+            size := extcodesize(_contract)
+        }
+        if (size == 0 || size > 5) {
+            revert("Invalid contract");
+        }
+        validContracts[_contract] = true;
+    }
 
-mapping(address => bool) public validContracts;
+    function flag(address _contract) public {
+        require(validContracts[_contract], "Given contract has not been validated");
 
-  
+        uint256 size;
+        assembly {
+            size := extcodesize(_contract)
+        }
+        bytes memory code = new bytes(size);
+        assembly {
+            extcodecopy(_contract, add(code, 0x20), 0, size)
+        }
+        bytes memory keyBytecode = hex"1f1a99ed17babe0000f007b4110000ba5eba110000c0ffee";
+        
+        require(keccak256(code) == keccak256(keyBytecode),"Both bytecodes don't match");
 
-function validate(address _contract) public {
-
-uint256 size;
-
-assembly {
-
-size := extcodesize(_contract)
-
-}
-
-if (size == 0 || size > 5) {
-
-revert("Invalid contract");
-
-}
-
-validContracts[_contract] = true;
-
-}
-
-  
-
-function flag(address _contract) public {
-
-require(validContracts[_contract], "Given contract has not been validated");
-
-  
-
-uint256 size;
-
-assembly {
-
-size := extcodesize(_contract)
+        isSolved = true;
+    }
 
 }
 
-bytes memory code = new bytes(size);
 
-assembly {
-
-extcodecopy(_contract, add(code, 0x20), 0, size)
-
-}
-
-bytes memory keyBytecode = hex"1f1a99ed17babe0000f007b4110000ba5eba110000c0ffee";
-
-require(keccak256(code) == keccak256(keyBytecode),"Both bytecodes don't match");
-
-  
-
-isSolved = true;
-
-}
-
-  
-
-}
 ```
 
 
@@ -89,85 +54,47 @@ but in a way that the public addresses of both contracts will be the same, thus 
 ### DoubleDeploy.sol
 ```solidity
 // SPDX-License-Identifier: MIT
-
 pragma solidity ^0.8.26;
-
-  
 
 import "./DoubleTrouble.sol";
 
-  
-
 contract DoubleDeploy {
+    event Deployed(address addr);
 
-event Deployed(address addr);
+    bytes32 public constant SALT = keccak256("midnight_ctf");
 
-  
 
-bytes32 public constant SALT = keccak256("midnight_ctf");
+    function deployFinal() external returns (address) {
+        address attack; 
+        bytes32 salt = SALT;
+        bytes memory attackcode = type(Deployer).creationCode;
 
-  
-  
+        assembly {
+            attack := create2(0, add(attackcode, 0x20), mload(attackcode), salt)
+        }
 
-function deployFinal() external returns (address) {
-
-address attack;
-
-bytes32 salt = SALT;
-
-bytes memory attackcode = type(Deployer).creationCode;
-
-  
-
-assembly {
-
-attack := create2(0, add(attackcode, 0x20), mload(attackcode), salt)
-
+        emit Deployed(attack);
+        return attack;
+    }
 }
-
-  
-
-emit Deployed(attack);
-
-return attack;
-
-}
-
-}
-
-  
 
 contract Deployer {
-
-constructor() {
-
-if (block.number % 2 == 0) {
-
-bytes memory b = hex"33ff";
-
-assembly {
-
-return(add(b, 0x20), mload(b))
-
+    constructor() {
+        if (block.number % 2 == 0) {
+            bytes memory b = hex"33ff";
+            assembly {
+                return(add(b, 0x20), mload(b))
+            }
+        }
+        else {
+            bytes memory b = hex"1f1a99ed17babe0000f007b4110000ba5eba110000c0ffee";
+            assembly {
+                return(add(b, 0x20), mload(b))
+            }
+        }
+    }
 }
 
-}
-
-else {
-
-bytes memory b = hex"1f1a99ed17babe0000f007b4110000ba5eba110000c0ffee";
-
-assembly {
-
-return(add(b, 0x20), mload(b))
-
-}
-
-}
-
-}
-
-}
 ```
 note that when deploying smart contracts, the "constructor's" memory that is returned will be the smart contract runtime code, that what 
 ```solidity
