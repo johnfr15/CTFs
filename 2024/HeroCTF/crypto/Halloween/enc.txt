@@ -1,0 +1,9 @@
+CIPHERED =  b03be7d0a50d97591efc522a8e94302c47627d1a73db71ae4ff4faca71c3af8d3da2d0049a4c8abf01abf41ba31bc217687db9ffd9d014cc6441a1fc07bd780178e12663e54ebe5f3ddbf81de8
+KEYSTREAM = 08a3e32a6591d6c2842efe62a0b347dbb467a1812ec67b48230213f350bf381198bc30684900dfedf85e95bfde38e7693e3d1b7647ac42ca0ccfa068a921b9d15d4ed79b86e57cfd16be5f5390
+
+[x] Opening connection to crypto.heroctf.fr on port 9001
+[x] Opening connection to crypto.heroctf.fr on port 9001: Trying 172.233.244.185
+[+] Opening connection to crypto.heroctf.fr on port 9001: Done
+
+Encrypted flag
+ 

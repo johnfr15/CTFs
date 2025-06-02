@@ -1,0 +1,28 @@
+{
+  "stats": {
+    "minecraft:picked_up": { "minecraft:written_book": 2 },
+    "minecraft:used": {
+      "minecraft:oak_sign": 1,
+      "minecraft:lectern": 4,
+      "minecraft:writable_book": 2,
+      "minecraft:written_book": 3
+    },
+    "minecraft:custom": {
+      "minecraft:jump": 13,
+      "minecraft:time_since_rest": 49471,
+      "minecraft:leave_game": 25,
+      "minecraft:crouch_one_cm": 66,
+      "minecraft:play_time": 49471,
+      "minecraft:sprint_one_cm": 43,
+      "minecraft:time_since_death": 49471,
+      "minecraft:walk_one_cm": 8471,
+      "minecraft:sneak_time": 220,
+      "minecraft:total_world_time": 79360,
+      "minecraft:climb_one_cm": 126,
+      "minecraft:walk_under_water_one_cm": 217,
+      "minecraft:interact_with_lectern": 26,
+      "minecraft:fly_one_cm": 41476
+    }
+  },
+  "DataVersion": 4189
+}

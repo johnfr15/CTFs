@@ -1,0 +1,91 @@
+diff --color -r dom-monitor-init/docker-compose.yml dom-monitor-new/docker-compose.yml
+2c2
+<   dom-monitor-app:
+---
+>   dom-monitor:
+7c7
+<       - "5000:5000"
+---
+>       - "8000:8000"
+23a24,26
+>     cap_add:
+>       - CAP_SETGID # Needed for su-exec
+>       - CAP_SETUID # Needed for su-exec
+diff --color -r dom-monitor-init/src/app/Dockerfile dom-monitor-new/src/app/Dockerfile
+1,2c1
+< FROM alpine:3.21.3
+< 
+---
+> FROM alpine:3.21
+5,7c4,10
+< RUN apk add --update --no-cache python3 py3-pip	&& \
+<     pip install --no-cache-dir --break-system-packages -r requirements.txt
+< 
+---
+> RUN apk add --update --no-cache         \
+>         python3~=3                      \
+>         py3-pip~=24                  && \
+>     pip install                         \
+>       --no-cache-dir                    \
+>       --break-system-packages           \
+>       -r requirements.txt
+9c12
+< CMD ["/usr/bin/python3", "/usr/app/app.py"]
+\ No newline at end of file
+---
+> CMD ["/usr/bin/python3", "/usr/app/app.py"]
+diff --color -r dom-monitor-init/src/app/src/app.py dom-monitor-new/src/app/src/app.py
+12c12
+<     app.run(host="0.0.0.0", port=5000)
+---
+>     app.run(host = "0.0.0.0", port = 8000)
+diff --color -r dom-monitor-init/src/app/src/requirements.txt dom-monitor-new/src/app/src/requirements.txt
+1c1
+< Flask
+\ No newline at end of file
+---
+> Flask
+diff --color -r dom-monitor-init/src/bot/Dockerfile dom-monitor-new/src/bot/Dockerfile
+1,2c1
+< FROM alpine:3.21.3
+< 
+---
+> FROM alpine:3.21
+5,11c4,14
+< RUN apk add --update --no-cache nodejs npm socat chromium-chromedriver && \
+<     npm install
+< 
+< COPY ./flag.txt /root/flag.txt
+< COPY ./get_flag /get_flag
+< RUN chmod u+s /get_flag
+< 
+---
+> COPY --chown=root:root  --chmod=400 ./flag.txt      /root/flag.txt
+> COPY --chown=root:users --chmod=550 ./get_flag      /get_flag
+> COPY --chown=root:root  --chmod=500 ./entrypoint.sh /entrypoint.sh
+> RUN apk add --update --no-cache          \
+>         nodejs~=22                       \
+>         npm~=10                          \
+>         socat~=1                         \
+>         su-exec~=0                       \
+>         chromium-chromedriver~=135    && \
+>     npm install                       && \
+>     chmod u+s /get_flag
+14,16c17
+< 
+< USER guest
+< CMD ["socat", "tcp-listen:4000,reuseaddr,fork", "exec:'node /usr/app/bot.js',stderr"]
+\ No newline at end of file
+---
+> CMD ["/bin/sh", "/entrypoint.sh"]
+Only in dom-monitor-new/src/bot: entrypoint.sh
+Binary files dom-monitor-init/src/bot/get_flag and dom-monitor-new/src/bot/get_flag differ
+diff --color -r dom-monitor-init/src/bot/get_flag.c dom-monitor-new/src/bot/get_flag.c
+6a7
+> 
+Only in dom-monitor-new/src/bot: Makefile
+diff --color -r dom-monitor-init/src/bot/src/bot.js dom-monitor-new/src/bot/src/bot.js
+66,68d65
+< 	// Kill all chromium process older than 1 minutes.
+< 	require("child_process").exec(`ps -o pid,etime,comm | awk '$3 ~ /chrom/ && $1 != 1 && $2 !~ /^0:/ {print $1}' | xargs -r kill -9`);
+< 

@@ -1,0 +1,1055 @@
+[x] Opening connection to challenges.hackday.fr on port 48118
+[x] Opening connection to challenges.hackday.fr on port 48118: Trying 51.210.149.5
+[+] Opening connection to challenges.hackday.fr on port 48118: Done
+[+] Connected to challenges.hackday.fr:48118
+[DEBUG] Received 0x21 bytes:
+    b'Can you find the flag?\n'
+    b'Your try? '
+[+] Initial server response: Can you find the flag?
+
+[+] Testing payloads of length 1...
+[*] Testing payload: '!'
+[DEBUG] Sent 0x2 bytes:
+    b'!\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"'
+[DEBUG] Sent 0x2 bytes:
+    b'"\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#'
+[DEBUG] Sent 0x2 bytes:
+    b'#\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '$'
+[DEBUG] Sent 0x2 bytes:
+    b'$\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '%'
+[DEBUG] Sent 0x2 bytes:
+    b'%\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '&'
+[DEBUG] Sent 0x2 bytes:
+    b'&\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: "'"
+[DEBUG] Sent 0x2 bytes:
+    b"'\n"
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '('
+[DEBUG] Sent 0x2 bytes:
+    b'(\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: ')'
+[DEBUG] Sent 0x2 bytes:
+    b')\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '*'
+[DEBUG] Sent 0x2 bytes:
+    b'*\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '+'
+[DEBUG] Sent 0x2 bytes:
+    b'+\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: ','
+[DEBUG] Sent 0x2 bytes:
+    b',\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '-'
+[DEBUG] Sent 0x2 bytes:
+    b'-\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '.'
+[DEBUG] Sent 0x2 bytes:
+    b'.\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '/'
+[DEBUG] Sent 0x2 bytes:
+    b'/\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: ':'
+[DEBUG] Sent 0x2 bytes:
+    b':\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: ';'
+[DEBUG] Sent 0x2 bytes:
+    b';\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '<'
+[DEBUG] Sent 0x2 bytes:
+    b'<\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '='
+[DEBUG] Sent 0x2 bytes:
+    b'=\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '>'
+[DEBUG] Sent 0x2 bytes:
+    b'>\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '?'
+[DEBUG] Sent 0x2 bytes:
+    b'?\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '@'
+[DEBUG] Sent 0x2 bytes:
+    b'@\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '['
+[DEBUG] Sent 0x2 bytes:
+    b'[\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '\\'
+[DEBUG] Sent 0x2 bytes:
+    b'\\\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: ']'
+[DEBUG] Sent 0x2 bytes:
+    b']\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '^'
+[DEBUG] Sent 0x2 bytes:
+    b'^\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '_'
+[DEBUG] Sent 0x2 bytes:
+    b'_\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '`'
+[DEBUG] Sent 0x2 bytes:
+    b'`\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '{'
+[DEBUG] Sent 0x2 bytes:
+    b'{\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '|'
+[DEBUG] Sent 0x2 bytes:
+    b'|\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '}'
+[DEBUG] Sent 0x2 bytes:
+    b'}\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '~'
+[DEBUG] Sent 0x2 bytes:
+    b'~\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[+] Testing payloads of length 2...
+[*] Testing payload: '!!'
+[DEBUG] Sent 0x3 bytes:
+    b'!!\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!"'
+[DEBUG] Sent 0x3 bytes:
+    b'!"\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!#'
+[DEBUG] Sent 0x3 bytes:
+    b'!#\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!$'
+[DEBUG] Sent 0x3 bytes:
+    b'!$\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!%'
+[DEBUG] Sent 0x3 bytes:
+    b'!%\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!&'
+[DEBUG] Sent 0x3 bytes:
+    b'!&\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: "!'"
+[DEBUG] Sent 0x3 bytes:
+    b"!'\n"
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!('
+[DEBUG] Sent 0x3 bytes:
+    b'!(\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!)'
+[DEBUG] Sent 0x3 bytes:
+    b'!)\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!*'
+[DEBUG] Sent 0x3 bytes:
+    b'!*\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!+'
+[DEBUG] Sent 0x3 bytes:
+    b'!+\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!,'
+[DEBUG] Sent 0x3 bytes:
+    b'!,\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!-'
+[DEBUG] Sent 0x3 bytes:
+    b'!-\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!.'
+[DEBUG] Sent 0x3 bytes:
+    b'!.\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!/'
+[DEBUG] Sent 0x3 bytes:
+    b'!/\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!:'
+[DEBUG] Sent 0x3 bytes:
+    b'!:\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!;'
+[DEBUG] Sent 0x3 bytes:
+    b'!;\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!<'
+[DEBUG] Sent 0x3 bytes:
+    b'!<\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!='
+[DEBUG] Sent 0x3 bytes:
+    b'!=\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!>'
+[DEBUG] Sent 0x3 bytes:
+    b'!>\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!?'
+[DEBUG] Sent 0x3 bytes:
+    b'!?\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!@'
+[DEBUG] Sent 0x3 bytes:
+    b'!@\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!['
+[DEBUG] Sent 0x3 bytes:
+    b'![\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!\\'
+[DEBUG] Sent 0x3 bytes:
+    b'!\\\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!]'
+[DEBUG] Sent 0x3 bytes:
+    b'!]\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!^'
+[DEBUG] Sent 0x3 bytes:
+    b'!^\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!_'
+[DEBUG] Sent 0x3 bytes:
+    b'!_\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!`'
+[DEBUG] Sent 0x3 bytes:
+    b'!`\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!{'
+[DEBUG] Sent 0x3 bytes:
+    b'!{\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!|'
+[DEBUG] Sent 0x3 bytes:
+    b'!|\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!}'
+[DEBUG] Sent 0x3 bytes:
+    b'!}\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '!~'
+[DEBUG] Sent 0x3 bytes:
+    b'!~\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"!'
+[DEBUG] Sent 0x3 bytes:
+    b'"!\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '""'
+[DEBUG] Sent 0x3 bytes:
+    b'""\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"#'
+[DEBUG] Sent 0x3 bytes:
+    b'"#\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"$'
+[DEBUG] Sent 0x3 bytes:
+    b'"$\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"%'
+[DEBUG] Sent 0x3 bytes:
+    b'"%\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"&'
+[DEBUG] Sent 0x3 bytes:
+    b'"&\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"\''
+[DEBUG] Sent 0x3 bytes:
+    b'"\'\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"('
+[DEBUG] Sent 0x3 bytes:
+    b'"(\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '")'
+[DEBUG] Sent 0x3 bytes:
+    b'")\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"*'
+[DEBUG] Sent 0x3 bytes:
+    b'"*\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"+'
+[DEBUG] Sent 0x3 bytes:
+    b'"+\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '",'
+[DEBUG] Sent 0x3 bytes:
+    b'",\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"-'
+[DEBUG] Sent 0x3 bytes:
+    b'"-\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '".'
+[DEBUG] Sent 0x3 bytes:
+    b'".\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"/'
+[DEBUG] Sent 0x3 bytes:
+    b'"/\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '":'
+[DEBUG] Sent 0x3 bytes:
+    b'":\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '";'
+[DEBUG] Sent 0x3 bytes:
+    b'";\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"<'
+[DEBUG] Sent 0x3 bytes:
+    b'"<\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"='
+[DEBUG] Sent 0x3 bytes:
+    b'"=\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '">'
+[DEBUG] Sent 0x3 bytes:
+    b'">\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"?'
+[DEBUG] Sent 0x3 bytes:
+    b'"?\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"@'
+[DEBUG] Sent 0x3 bytes:
+    b'"@\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"['
+[DEBUG] Sent 0x3 bytes:
+    b'"[\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"\\'
+[DEBUG] Sent 0x3 bytes:
+    b'"\\\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"]'
+[DEBUG] Sent 0x3 bytes:
+    b'"]\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"^'
+[DEBUG] Sent 0x3 bytes:
+    b'"^\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"_'
+[DEBUG] Sent 0x3 bytes:
+    b'"_\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"`'
+[DEBUG] Sent 0x3 bytes:
+    b'"`\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"{'
+[DEBUG] Sent 0x3 bytes:
+    b'"{\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"|'
+[DEBUG] Sent 0x3 bytes:
+    b'"|\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"}'
+[DEBUG] Sent 0x3 bytes:
+    b'"}\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '"~'
+[DEBUG] Sent 0x3 bytes:
+    b'"~\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#!'
+[DEBUG] Sent 0x3 bytes:
+    b'#!\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#"'
+[DEBUG] Sent 0x3 bytes:
+    b'#"\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '##'
+[DEBUG] Sent 0x3 bytes:
+    b'##\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#$'
+[DEBUG] Sent 0x3 bytes:
+    b'#$\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#%'
+[DEBUG] Sent 0x3 bytes:
+    b'#%\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#&'
+[DEBUG] Sent 0x3 bytes:
+    b'#&\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: "#'"
+[DEBUG] Sent 0x3 bytes:
+    b"#'\n"
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#('
+[DEBUG] Sent 0x3 bytes:
+    b'#(\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#)'
+[DEBUG] Sent 0x3 bytes:
+    b'#)\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#*'
+[DEBUG] Sent 0x3 bytes:
+    b'#*\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#+'
+[DEBUG] Sent 0x3 bytes:
+    b'#+\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#,'
+[DEBUG] Sent 0x3 bytes:
+    b'#,\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#-'
+[DEBUG] Sent 0x3 bytes:
+    b'#-\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#.'
+[DEBUG] Sent 0x3 bytes:
+    b'#.\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#/'
+[DEBUG] Sent 0x3 bytes:
+    b'#/\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#:'
+[DEBUG] Sent 0x3 bytes:
+    b'#:\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#;'
+[DEBUG] Sent 0x3 bytes:
+    b'#;\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#<'
+[DEBUG] Sent 0x3 bytes:
+    b'#<\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#='
+[DEBUG] Sent 0x3 bytes:
+    b'#=\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#>'
+[DEBUG] Sent 0x3 bytes:
+    b'#>\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#?'
+[DEBUG] Sent 0x3 bytes:
+    b'#?\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#@'
+[DEBUG] Sent 0x3 bytes:
+    b'#@\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#['
+[DEBUG] Sent 0x3 bytes:
+    b'#[\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#\\'
+[DEBUG] Sent 0x3 bytes:
+    b'#\\\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#]'
+[DEBUG] Sent 0x3 bytes:
+    b'#]\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#^'
+[DEBUG] Sent 0x3 bytes:
+    b'#^\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#_'
+[DEBUG] Sent 0x3 bytes:
+    b'#_\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#`'
+[DEBUG] Sent 0x3 bytes:
+    b'#`\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#{'
+[DEBUG] Sent 0x3 bytes:
+    b'#{\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#|'
+[DEBUG] Sent 0x3 bytes:
+    b'#|\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#}'
+[DEBUG] Sent 0x3 bytes:
+    b'#}\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '#~'
+[DEBUG] Sent 0x3 bytes:
+    b'#~\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '$!'
+[DEBUG] Sent 0x3 bytes:
+    b'$!\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '$"'
+[DEBUG] Sent 0x3 bytes:
+    b'$"\n'
+[DEBUG] Received 0x17 bytes:
+    b'Wrong length\n'
+    b'Your try? '
+[+] Response: Your try? Wrong length
+
+[*] Testing payload: '$#'
+[DEBUG] Sent 0x3 bytes:
+    b'$#\n'
+[*] Closed connection to challenges.hackday.fr port 48118

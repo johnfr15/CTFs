@@ -1,0 +1,48 @@
+# Convert to mutable bytearray
+encrypted_flag = bytearray([
+    0x2d, 0x38, 0xbf, 0x32, 0xf0, 0x05, 0xa8, 0xb5, 0x04, 0x9b,
+    0x8c, 0x53, 0xca, 0xe7, 0xf0, 0x67, 0xf6, 0x59, 0xc4, 0xf1,
+    0x50, 0xe7, 0x7a, 0xa5, 0x74, 0xab, 0xdc, 0xd9, 0x50, 0xf7,
+    0x5a, 0xbd, 0xb6, 0x2b, 0x9e, 0x31, 0x90, 0x37, 0x08, 0x1d,
+    0x3e, 0xa9, 0x2c, 0x69, 0x0a, 0x67, 0x38, 0x9f, 0x0e, 0x2b,
+    0x24, 0x93, 0x72, 0x1f, 0x40, 0x6d, 0xd4, 0x7b, 0xee, 0x51,
+    0x1a, 0x4f, 0xca, 0x6d, 0xec, 0xf1, 0x24, 0xcb, 0x72, 0x05,
+    0xf1
+])
+
+# This do the reverse operation of the encryption in the loop of "func2"
+flag = b""
+for i in range(len(encrypted_flag)):
+    idx_part = i * 3
+    offset = idx_part + 0x1f
+
+    encrypted_flag[i] ^= offset
+
+    val = ((encrypted_flag[i] >> 3) | (encrypted_flag[i] << 5)) & 0xFF
+    flag += bytes([val])  # Wrap in bytes() to concatenate
+
+print(flag)
+
+"""
+from pwn import *
+
+# Set context (optional, but helpful for debugging)
+context.binary = "./babyfuscation"
+# Convert to byte string
+input_bytes = bytes(encrypted_flag)
+
+# Launch process in the background
+p = process("./babyfuscation")
+
+# Print PID to attach with GDB
+print(f"[+] Attach with: gdb -p {p.pid}")
+pause()  # <--- This will wait until you press ENTER
+
+# Interact with the binary
+p.recvuntil(b"Enter the flag: ")
+p.sendline(input_bytes)
+
+# Optionally wait for output or explore interactively
+p.interactive()
+
+"""

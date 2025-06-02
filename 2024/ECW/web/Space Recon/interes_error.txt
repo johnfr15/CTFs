@@ -1,0 +1,1 @@
+Value: ']=' - Response: 200, {"code":102,"error":"Invalid parameter for query: where={\"name\":{\"$regex\":\"]"}

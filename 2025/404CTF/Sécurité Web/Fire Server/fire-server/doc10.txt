@@ -1,0 +1,16 @@
+--- Évaluation de l’Anomalie Gravitationnelle - Projet Event Horizon ---<br>
+Date : 24/03/2075<br><br>
+
+Contexte :<br>
+
+Une anomalie gravitationnelle massive a été détectée à proximité du trou noir Sagittarius A*.<br>
+
+Distorsion de l’espace-temps mesurée par interférométrie.<br>
+
+Hypothèse d’un pont Einstein-Rosen (trou de ver) en cours d’évaluation.<br><br>
+
+Recommandation :<br>
+
+Poursuivre l’observation en utilisant les télescopes à ondes gravitationnelles.<br><br>
+
+Fin du rapport.

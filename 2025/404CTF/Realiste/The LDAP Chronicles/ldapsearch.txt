@@ -1,0 +1,688 @@
+# extended LDIF
+#
+# LDAPv3
+# base <DC=ctfcorp,DC=local> with scope subtree
+# filter: (objectClass=person)
+# requesting: * 
+#
+
+# Guest, Users, ctfcorp.local
+dn: CN=Guest,CN=Users,DC=ctfcorp,DC=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Guest
+description: Built-in account for guest access to the computer/domain
+distinguishedName: CN=Guest,CN=Users,DC=ctfcorp,DC=local
+instanceType: 4
+whenCreated: 20250501210824.0Z
+whenChanged: 20250501210824.0Z
+uSNCreated: 8197
+memberOf: CN=Guests,CN=Builtin,DC=ctfcorp,DC=local
+uSNChanged: 8197
+name: Guest
+objectGUID:: +nUsnIxZ4kSIYxA+GPZZ8w==
+userAccountControl: 66082
+badPwdCount: 1
+codePage: 0
+countryCode: 0
+badPasswordTime: 133924725056388182
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 0
+primaryGroupID: 514
+objectSid:: AQUAAAAAAAUVAAAA0K+mO17I1hccU3fz9QEAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: Guest
+sAMAccountType: 805306368
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=ctfcorp,DC=local
+isCriticalSystemObject: TRUE
+dSCorePropagationData: 20250505155009.0Z
+dSCorePropagationData: 20250502062154.0Z
+dSCorePropagationData: 20250502061014.0Z
+dSCorePropagationData: 20250502061013.0Z
+dSCorePropagationData: 16010101000417.0Z
+
+# DefaultAccount, Users, ctfcorp.local
+dn: CN=DefaultAccount,CN=Users,DC=ctfcorp,DC=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: DefaultAccount
+description: A user account managed by the system.
+distinguishedName: CN=DefaultAccount,CN=Users,DC=ctfcorp,DC=local
+instanceType: 4
+whenCreated: 20250501210824.0Z
+whenChanged: 20250501210824.0Z
+uSNCreated: 8198
+memberOf: CN=System Managed Accounts Group,CN=Builtin,DC=ctfcorp,DC=local
+uSNChanged: 8198
+name: DefaultAccount
+objectGUID:: F1kv/BsFCEOE+Hjy/jJiwQ==
+userAccountControl: 66082
+badPwdCount: 220
+codePage: 0
+countryCode: 0
+badPasswordTime: 133924873882654775
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 0
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAA0K+mO17I1hccU3fz9wEAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: DefaultAccount
+sAMAccountType: 805306368
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=ctfcorp,DC=local
+isCriticalSystemObject: TRUE
+dSCorePropagationData: 20250505155009.0Z
+dSCorePropagationData: 20250502062154.0Z
+dSCorePropagationData: 20250502061014.0Z
+dSCorePropagationData: 20250502061013.0Z
+dSCorePropagationData: 16010101000417.0Z
+
+# DC1, Domain Controllers, ctfcorp.local
+dn: CN=DC1,OU=Domain Controllers,DC=ctfcorp,DC=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+objectClass: computer
+cn: DC1
+distinguishedName: CN=DC1,OU=Domain Controllers,DC=ctfcorp,DC=local
+instanceType: 4
+whenCreated: 20250501210900.0Z
+whenChanged: 20250522074154.0Z
+displayName: DC1$
+uSNCreated: 12293
+uSNChanged: 447148
+name: DC1
+objectGUID:: 1YvjYJB0mUqZ6hXGS3n3LQ==
+userAccountControl: 532480
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 133923331471824251
+lastLogoff: 0
+lastLogon: 133924885145560172
+localPolicyFlags: 0
+pwdLastSet: 133906073574336552
+primaryGroupID: 516
+objectSid:: AQUAAAAAAAUVAAAA0K+mO17I1hccU3fz6AMAAA==
+accountExpires: 9223372036854775807
+logonCount: 146
+sAMAccountName: DC1$
+sAMAccountType: 805306369
+operatingSystem: Windows Server 2016 Standard
+operatingSystemVersion: 10.0 (14393)
+serverReferenceBL: CN=DC1,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Co
+ nfiguration,DC=ctfcorp,DC=local
+dNSHostName: DC1.ctfcorp.local
+rIDSetReferences: CN=RID Set,CN=DC1,OU=Domain Controllers,DC=ctfcorp,DC=local
+servicePrincipalName: Dfsr-12F9A27C-BF97-4787-9364-D31B6C55EB04/DC1.ctfcorp.lo
+ cal
+servicePrincipalName: ldap/WIN-I62PMBTCFCV/CTFCORP
+servicePrincipalName: HOST/WIN-I62PMBTCFCV/ctfcorp.local
+servicePrincipalName: ldap/WIN-I62PMBTCFCV/ForestDnsZones.ctfcorp.local
+servicePrincipalName: HOST/WIN-I62PMBTCFCV/CTFCORP
+servicePrincipalName: ldap/DC1/ForestDnsZones.ctfcorp.local
+servicePrincipalName: ldap/WIN-I62PMBTCFCV/DomainDnsZones.ctfcorp.local
+servicePrincipalName: HOST/DC1/ctfcorp.local
+servicePrincipalName: ldap/DC1/DomainDnsZones.ctfcorp.local
+servicePrincipalName: GC/DC1/ctfcorp.local
+servicePrincipalName: ldap/WIN-I62PMBTCFCV/ctfcorp.local
+servicePrincipalName: GC/WIN-I62PMBTCFCV/ctfcorp.local
+servicePrincipalName: ldap/DC1/ctfcorp.local
+servicePrincipalName: TERMSRV/WIN-I62PMBTCFCV
+servicePrincipalName: RestrictedKrbHost/WIN-I62PMBTCFCV
+servicePrincipalName: HOST/WIN-I62PMBTCFCV
+servicePrincipalName: ldap/WIN-I62PMBTCFCV
+servicePrincipalName: HOST/DC1/CTFCORP
+servicePrincipalName: ldap/DC1/CTFCORP
+servicePrincipalName: TERMSRV/DC1
+servicePrincipalName: TERMSRV/DC1.ctfcorp.local
+servicePrincipalName: ldap/DC1.ctfcorp.local/ForestDnsZones.ctfcorp.local
+servicePrincipalName: ldap/DC1.ctfcorp.local/DomainDnsZones.ctfcorp.local
+servicePrincipalName: DNS/DC1.ctfcorp.local
+servicePrincipalName: GC/DC1.ctfcorp.local/ctfcorp.local
+servicePrincipalName: RestrictedKrbHost/DC1.ctfcorp.local
+servicePrincipalName: RestrictedKrbHost/DC1
+servicePrincipalName: HOST/DC1.ctfcorp.local/CTFCORP
+servicePrincipalName: HOST/DC1
+servicePrincipalName: HOST/DC1.ctfcorp.local
+servicePrincipalName: HOST/DC1.ctfcorp.local/ctfcorp.local
+servicePrincipalName: ldap/DC1.ctfcorp.local/CTFCORP
+servicePrincipalName: ldap/DC1
+servicePrincipalName: ldap/DC1.ctfcorp.local
+servicePrincipalName: ldap/DC1.ctfcorp.local/ctfcorp.local
+servicePrincipalName: TERMSRV/WIN-I62PMBTCFCV.ctfcorp.local
+servicePrincipalName: Dfsr-12F9A27C-BF97-4787-9364-D31B6C55EB04/WIN-I62PMBTCFC
+ V.ctfcorp.local
+servicePrincipalName: ldap/WIN-I62PMBTCFCV.ctfcorp.local/ForestDnsZones.ctfcor
+ p.local
+servicePrincipalName: ldap/WIN-I62PMBTCFCV.ctfcorp.local/DomainDnsZones.ctfcor
+ p.local
+servicePrincipalName: DNS/WIN-I62PMBTCFCV.ctfcorp.local
+servicePrincipalName: GC/WIN-I62PMBTCFCV.ctfcorp.local/ctfcorp.local
+servicePrincipalName: RestrictedKrbHost/WIN-I62PMBTCFCV.ctfcorp.local
+servicePrincipalName: RPC/51d417ca-2089-4b6f-adb7-23dcca17ef59._msdcs.ctfcorp.
+ local
+servicePrincipalName: HOST/WIN-I62PMBTCFCV.ctfcorp.local/CTFCORP
+servicePrincipalName: HOST/WIN-I62PMBTCFCV.ctfcorp.local
+servicePrincipalName: HOST/WIN-I62PMBTCFCV.ctfcorp.local/ctfcorp.local
+servicePrincipalName: E3514235-4B06-11D1-AB04-00C04FC2DCD2/51d417ca-2089-4b6f-
+ adb7-23dcca17ef59/ctfcorp.local
+servicePrincipalName: ldap/51d417ca-2089-4b6f-adb7-23dcca17ef59._msdcs.ctfcorp
+ .local
+servicePrincipalName: ldap/WIN-I62PMBTCFCV.ctfcorp.local/CTFCORP
+servicePrincipalName: ldap/WIN-I62PMBTCFCV.ctfcorp.local
+servicePrincipalName: ldap/WIN-I62PMBTCFCV.ctfcorp.local/ctfcorp.local
+objectCategory: CN=Computer,CN=Schema,CN=Configuration,DC=ctfcorp,DC=local
+isCriticalSystemObject: TRUE
+dSCorePropagationData: 20250505155009.0Z
+dSCorePropagationData: 20250502062154.0Z
+dSCorePropagationData: 20250502045652.0Z
+dSCorePropagationData: 20250501210901.0Z
+dSCorePropagationData: 16010714223649.0Z
+lastLogonTimestamp: 133923733145469064
+msDS-AdditionalDnsHostName:: V0lOLUk2MlBNQlRDRkNWACQ=
+msDS-AdditionalDnsHostName: WIN-I62PMBTCFCV.ctfcorp.local
+msDS-AdditionalDnsHostName:: REMxACQ=
+msDS-SupportedEncryptionTypes: 28
+msDFSR-ComputerReferenceBL: CN=WIN-I62PMBTCFCV,CN=Topology,CN=Domain System Vo
+ lume,CN=DFSR-GlobalSettings,CN=System,DC=ctfcorp,DC=local
+
+# hf47, Users, ctfcorp.local
+dn: CN=hf47,CN=Users,DC=ctfcorp,DC=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: hf47
+givenName: hf47
+distinguishedName: CN=hf47,CN=Users,DC=ctfcorp,DC=local
+instanceType: 4
+whenCreated: 20250502144405.0Z
+whenChanged: 20250502144406.0Z
+displayName: hf47
+uSNCreated: 50668
+uSNChanged: 50676
+name: hf47
+objectGUID:: aPn5vNueq02q6T72oc91oQ==
+userAccountControl: 66048
+badPwdCount: 1
+codePage: 0
+countryCode: 0
+badPasswordTime: 133916547437524025
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133906706459547475
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAA0K+mO17I1hccU3fzYAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: hf47
+sAMAccountType: 805306368
+userPrincipalName: hf47@ctfcorp.local
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=ctfcorp,DC=local
+dSCorePropagationData: 20250505155009.0Z
+dSCorePropagationData: 20250502144405.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# helpdesk_operator, Users, ctfcorp.local
+dn: CN=helpdesk_operator,CN=Users,DC=ctfcorp,DC=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: helpdesk_operator
+description: Contact: ext-5555 - Helpdesk Level 1
+distinguishedName: CN=helpdesk_operator,CN=Users,DC=ctfcorp,DC=local
+instanceType: 4
+whenCreated: 20250505155009.0Z
+whenChanged: 20250505155009.0Z
+uSNCreated: 53301
+info: Working hours: 9AM-6PM
+uSNChanged: 53306
+department: IT Support
+name: helpdesk_operator
+objectGUID:: lfUVCwbAuUidvhzL0mwSCA==
+userAccountControl: 66048
+badPwdCount: 279
+codePage: 0
+countryCode: 0
+badPasswordTime: 133917496231063848
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133909338094974314
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAA0K+mO17I1hccU3fzYwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: helpdesk_operator
+sAMAccountType: 805306368
+userPrincipalName: helpdesk_operator@ctfcorp.local
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=ctfcorp,DC=local
+dSCorePropagationData: 16010101000000.0Z
+
+# backup_service, Users, ctfcorp.local
+dn: CN=backup_service,CN=Users,DC=ctfcorp,DC=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: backup_service
+description: Automated backup service account
+distinguishedName: CN=backup_service,CN=Users,DC=ctfcorp,DC=local
+instanceType: 4
+whenCreated: 20250505155009.0Z
+whenChanged: 20250505155009.0Z
+uSNCreated: 53308
+info: DO NOT DISABLE - Critical service
+uSNChanged: 53313
+department: IT
+name: backup_service
+objectGUID:: J8i295QwsUivo6NAe2s58Q==
+userAccountControl: 66048
+badPwdCount: 11
+codePage: 0
+countryCode: 0
+badPasswordTime: 133922034943510244
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133909338095599363
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAA0K+mO17I1hccU3fzZAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: backup_service
+sAMAccountType: 805306368
+userPrincipalName: backup_service@ctfcorp.local
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=ctfcorp,DC=local
+dSCorePropagationData: 16010101000000.0Z
+
+# john_doe, Users, ctfcorp.local
+dn: CN=john_doe,CN=Users,DC=ctfcorp,DC=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: john_doe
+description: Sales Manager - North Region
+distinguishedName: CN=john_doe,CN=Users,DC=ctfcorp,DC=local
+instanceType: 4
+whenCreated: 20250505155009.0Z
+whenChanged: 20250505155009.0Z
+uSNCreated: 53315
+info: Employee since 2020
+uSNChanged: 53320
+department: Sales
+name: john_doe
+objectGUID:: BUwyqIesREOrO0JeYhRgNA==
+userAccountControl: 66048
+badPwdCount: 4
+codePage: 0
+countryCode: 0
+badPasswordTime: 133923180632606010
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133909338096224024
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAA0K+mO17I1hccU3fzZQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: john_doe
+sAMAccountType: 805306368
+userPrincipalName: john_doe@ctfcorp.local
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=ctfcorp,DC=local
+dSCorePropagationData: 16010101000000.0Z
+
+# sarah_smith, Users, ctfcorp.local
+dn: CN=sarah_smith,CN=Users,DC=ctfcorp,DC=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: sarah_smith
+description: 404CTF{Ld4P_4n0nym0us_1s_4_B4d_Pr4ct1c3!}
+distinguishedName: CN=sarah_smith,CN=Users,DC=ctfcorp,DC=local
+instanceType: 4
+whenCreated: 20250505155009.0Z
+whenChanged: 20250505155009.0Z
+uSNCreated: 53322
+info: Contact for recruitment
+uSNChanged: 53327
+department: Human Resources
+name: sarah_smith
+objectGUID:: 5rMqo3xyK0iFAZzYm+k9HQ==
+userAccountControl: 66048
+badPwdCount: 204
+codePage: 0
+countryCode: 0
+badPasswordTime: 133917496635230372
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133909338096692680
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAA0K+mO17I1hccU3fzZgQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: sarah_smith
+sAMAccountType: 805306368
+userPrincipalName: sarah_smith@ctfcorp.local
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=ctfcorp,DC=local
+dSCorePropagationData: 16010101000000.0Z
+
+# dev_jenkins, Users, ctfcorp.local
+dn: CN=dev_jenkins,CN=Users,DC=ctfcorp,DC=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: dev_jenkins
+description: CI/CD Pipeline Service Account
+distinguishedName: CN=dev_jenkins,CN=Users,DC=ctfcorp,DC=local
+instanceType: 4
+whenCreated: 20250505155009.0Z
+whenChanged: 20250505155009.0Z
+uSNCreated: 53329
+info: Managed by DevOps team
+uSNChanged: 53334
+department: Development
+name: dev_jenkins
+objectGUID:: S3VY0zHCgkO/JUjMmVszuw==
+userAccountControl: 66048
+badPwdCount: 169
+codePage: 0
+countryCode: 0
+badPasswordTime: 133917496770680884
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133909338097161483
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAA0K+mO17I1hccU3fzZwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: dev_jenkins
+sAMAccountType: 805306368
+userPrincipalName: dev_jenkins@ctfcorp.local
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=ctfcorp,DC=local
+dSCorePropagationData: 16010101000000.0Z
+
+# print_svc, Users, ctfcorp.local
+dn: CN=print_svc,CN=Users,DC=ctfcorp,DC=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: print_svc
+description: Print Spooler Service
+distinguishedName: CN=print_svc,CN=Users,DC=ctfcorp,DC=local
+instanceType: 4
+whenCreated: 20250505155009.0Z
+whenChanged: 20250505155009.0Z
+uSNCreated: 53336
+info: Printer management account
+uSNChanged: 53341
+department: IT
+name: print_svc
+objectGUID:: Ktn3ICUvEkaNYS6NLOCu5w==
+userAccountControl: 66048
+badPwdCount: 165
+codePage: 0
+countryCode: 0
+badPasswordTime: 133917496905663569
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133909338097786397
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAA0K+mO17I1hccU3fzaAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: print_svc
+sAMAccountType: 805306368
+userPrincipalName: print_svc@ctfcorp.local
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=ctfcorp,DC=local
+dSCorePropagationData: 16010101000000.0Z
+
+# web_admin, Users, ctfcorp.local
+dn: CN=web_admin,CN=Users,DC=ctfcorp,DC=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: web_admin
+description: Intranet Administrator
+distinguishedName: CN=web_admin,CN=Users,DC=ctfcorp,DC=local
+instanceType: 4
+whenCreated: 20250505155009.0Z
+whenChanged: 20250505155009.0Z
+uSNCreated: 53343
+info: Contact for website issues
+uSNChanged: 53348
+department: IT
+name: web_admin
+objectGUID:: gIhD7ASHtU6rgCSAUMnwkw==
+userAccountControl: 66048
+badPwdCount: 4
+codePage: 0
+countryCode: 0
+badPasswordTime: 133923179684293822
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133909338098411307
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAA0K+mO17I1hccU3fzaQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: web_admin
+sAMAccountType: 805306368
+userPrincipalName: web_admin@ctfcorp.local
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=ctfcorp,DC=local
+dSCorePropagationData: 16010101000000.0Z
+
+# stylo3580_404Player, Users, ctfcorp.local
+dn: CN=stylo3580_404Player,CN=Users,DC=ctfcorp,DC=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: stylo3580_404Player
+sn: 404CTF Player
+givenName: debug
+distinguishedName: CN=stylo3580_404Player,CN=Users,DC=ctfcorp,DC=local
+instanceType: 4
+whenCreated: 20250509191443.0Z
+whenChanged: 20250509191700.0Z
+displayName: debug - 404CTF Player
+uSNCreated: 153686
+memberOf: CN=CTF_Player,CN=Users,DC=ctfcorp,DC=local
+uSNChanged: 153760
+name: stylo3580_404Player
+objectGUID:: 48p7vka7AUSDThCMxYpLOA==
+userAccountControl: 512
+badPwdCount: 85
+codePage: 0
+countryCode: 0
+badPasswordTime: 133917497180940311
+lastLogoff: 0
+lastLogon: 133915759122386421
+pwdLastSet: 133912918205056912
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAA0K+mO17I1hccU3fzdwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: stylo3580_404Player
+sAMAccountType: 805306368
+userPrincipalName: stylo3580_404Player@ctfcorp.local
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=ctfcorp,DC=local
+dSCorePropagationData: 16010101000000.0Z
+lastLogonTimestamp: 133912917531708812
+
+# glace4929_404Player, Users, ctfcorp.local
+dn: CN=glace4929_404Player,CN=Users,DC=ctfcorp,DC=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: glace4929_404Player
+sn: 404CTF Player
+givenName: exFDlL5mR3DpS3JB
+distinguishedName: CN=glace4929_404Player,CN=Users,DC=ctfcorp,DC=local
+instanceType: 4
+whenCreated: 20250509220744.0Z
+whenChanged: 20250509220744.0Z
+displayName: exFDlL5mR3DpS3JB - 404CTF Player
+uSNCreated: 156016
+memberOf: CN=CTF_Player,CN=Users,DC=ctfcorp,DC=local
+uSNChanged: 156024
+name: glace4929_404Player
+objectGUID:: +wf8L0hR5ESfRnHBc41gYg==
+userAccountControl: 66048
+badPwdCount: 85
+codePage: 0
+countryCode: 0
+badPasswordTime: 133917497323733461
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133913020640721593
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAA0K+mO17I1hccU3fzeQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: glace4929_404Player
+sAMAccountType: 805306368
+userPrincipalName: glace4929_404Player@ctfcorp.local
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=ctfcorp,DC=local
+dSCorePropagationData: 16010101000000.0Z
+
+# crayon1686_404Player, Users, ctfcorp.local
+dn: CN=crayon1686_404Player,CN=Users,DC=ctfcorp,DC=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: crayon1686_404Player
+sn: 404CTF Player
+givenName: exFDlL5mR3DpS3JB
+distinguishedName: CN=crayon1686_404Player,CN=Users,DC=ctfcorp,DC=local
+instanceType: 4
+whenCreated: 20250509222830.0Z
+whenChanged: 20250509222830.0Z
+displayName: exFDlL5mR3DpS3JB - 404CTF Player
+uSNCreated: 156162
+memberOf: CN=CTF_Player,CN=Users,DC=ctfcorp,DC=local
+uSNChanged: 156170
+name: crayon1686_404Player
+objectGUID:: SASPkejwLk6zBQiWpntgzw==
+userAccountControl: 66048
+badPwdCount: 85
+codePage: 0
+countryCode: 0
+badPasswordTime: 133917497470745760
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133913033102218481
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAA0K+mO17I1hccU3fzegQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: crayon1686_404Player
+sAMAccountType: 805306368
+userPrincipalName: crayon1686_404Player@ctfcorp.local
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=ctfcorp,DC=local
+dSCorePropagationData: 16010101000000.0Z
+
+# livre9423_404Player, Users, ctfcorp.local
+dn: CN=livre9423_404Player,CN=Users,DC=ctfcorp,DC=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: livre9423_404Player
+sn: 404CTF Player
+givenName: exFDlL5mR3DpS3JB
+distinguishedName: CN=livre9423_404Player,CN=Users,DC=ctfcorp,DC=local
+instanceType: 4
+whenCreated: 20250509223335.0Z
+whenChanged: 20250509225032.0Z
+displayName: exFDlL5mR3DpS3JB - 404CTF Player
+uSNCreated: 156201
+memberOf: CN=CTF_Player,CN=Users,DC=ctfcorp,DC=local
+uSNChanged: 156600
+name: livre9423_404Player
+objectGUID:: Wyn9BCxruUScccpCpU5OHQ==
+userAccountControl: 512
+badPwdCount: 2
+codePage: 0
+countryCode: 0
+badPasswordTime: 133921668827908959
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133913046327676296
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAA0K+mO17I1hccU3fzewQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: livre9423_404Player
+sAMAccountType: 805306368
+userPrincipalName: livre9423_404Player@ctfcorp.local
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=ctfcorp,DC=local
+dSCorePropagationData: 16010101000000.0Z
+
+# lion279683_404Player, Users, ctfcorp.local
+dn: CN=lion279683_404Player,CN=Users,DC=ctfcorp,DC=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: lion279683_404Player
+sn: 404CTF Player
+givenName: _hdrien
+distinguishedName: CN=lion279683_404Player,CN=Users,DC=ctfcorp,DC=local
+instanceType: 4
+whenCreated: 20250509230838.0Z
+whenChanged: 20250509230838.0Z
+displayName: _hdrien - 404CTF Player
+uSNCreated: 157217
+memberOf: CN=CTF_Player,CN=Users,DC=ctfcorp,DC=local
+uSNChanged: 157225
+name: lion279683_404Player
+objectGUID:: DzNcZDCF3ECdeNTQTBhq3Q==
+userAccountControl: 66048
+badPwdCount: 1
+codePage: 0
+countryCode: 0
+badPasswordTime: 133923291166783267
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 133913057186254874
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAA0K+mO17I1hccU3fzfAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: lion279683_404Player
+sAMAccountType: 805306368
+userPrincipalName: lion279683_404Player@ctfcorp.local
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=ctfcorp,DC=local
+dSCorePropagationData: 16010101000000.0Z
+
+# search reference
+ref: ldap://ForestDnsZones.ctfcorp.local/DC=ForestDnsZones,DC=ctfcorp,DC=local
+
+# search reference
+ref: ldap://DomainDnsZones.ctfcorp.local/DC=DomainDnsZones,DC=ctfcorp,DC=local
+
+# search reference
+ref: ldap://ctfcorp.local/CN=Configuration,DC=ctfcorp,DC=local
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 20
+# numEntries: 16
+# numReferences: 3

@@ -1,0 +1,10 @@
+--- Journal de Bord - Mission Mars Pioneer ---<br>
+Date : 16/03/2075<br><br>
+
+Résumé de la mission :<br>
+- L'équipage a établi le premier contact avec la sonde martienne automatisée « RedExplorer ».<br>
+- Des images haute résolution ont révélé des formations géologiques inédites.<br>
+- Des indices laissent penser à la présence d'anciens dépôts d'eau, renforçant l'hypothèse d'une activité hydrothermale.<br>
+- Prochaines étapes : recueillir des échantillons du sol et réaliser une analyse spectrométrique.<br><br>
+
+Fin du journal.

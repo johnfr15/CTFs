@@ -1,0 +1,616 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <contact@aerodynamics-riograndese.site>
+From: NFQ <contact@aerodynamics-riograndese.site>
+To: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+Subject: RE: Proposition de collaboration
+Date: Fri, 18 Nov 2022 09:15:47 +0100
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+Mathilde,
+
+Je vous assure que notre coopération sera mutuellement bénéfique. 
+Nous avons besoin d'informations sur les avancées du projet "Eagle". En contrepartie, nous prendrons soin de vos préoccupations financières. 
+Commençons doucement. Une simple mise à jour sur le projet suffira pour cette fois.
+
+NFQ
+
+===========================================================================================================
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <notifications.transferts@fpel.fr>
+From: Service Transferts FPEL <notifications.transferts@fpel.fr>
+To: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+Subject: SWIFT Transfer Notification - MT103 30002
+Date: Mon, 4 Dec 2023 09:45:12 +0200
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Dear Customer,
+
+Please find below the SWIFT MT103 message for your received transfer:
+
+[SWIFT_MESSAGE]
+{1:F01BCRIRRPPAXXX0000000000}{2:I103FPELFR21XXXXN}{4:
+:20:30002
+:23B:CRED
+:32A:231204EUR9650,00
+:50K:/LI49208765432109876543210
+INNOVEX CAPITAL
+BADWEGLI
+9490 VADUZ
+LIECHTENSTEIN
+:59:/FR45987654321098765432109
+MATHILDE DE GUERIGNY
+12 AVENUE DES CHAMPS
+16000 ANGOULEME, FRANCE
+:70:SERVICES RENDERED
+:71A:SHA
+-}
+[/SWIFT_MESSAGE]
+
+Best regards,
+FPEL Transfer Department
+
+===========================================================================================================
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <mathilde.deguerigny@aeroguard-technologies.eu>
+From: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+To: NFQ <contact@aerodynamics-riograndese.site>
+Subject: RE: Nouvelles instructions
+Date: Wed, 07 Feb 2024 16:45:12 +0100
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+NFQ
+
+La perspective de voir couler Aeroguard me déplait fortement. Mais mon mari nous a encore mis dans une situation intenable. 
+J'accepte donc votre proposition. 
+
+MDG
+
+===========================================================================================================
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <mathilde.deguerigny@aeroguard-technologies.eu>
+From: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+To: NFQ <contact@aerodynamics-riograndese.site>
+Subject: =?utf-8?q?Pr=C3=A9occupations?=
+Date: Fri, 25 Oct 2024 17:33:41 +0200
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+NFQ,
+Je commence à avoir des doutes. Le PDG va devoir vendre des parts et l'ambiance vire à la paranoïa depuis qu'on a perdu 2 clients importants suite aux accusations de harcelèment de votre élément. 
+L'Eagle est fini et d'après mes informations les essais donnent satisfaction mais pour le moment il m'est impossible d'accéder aux documents. 
+Marco ne laisse plus les plans au bureau et depuis l'attaque informatique il ne laisse plus rien sur le serveur non plus. 
+Nous avons un séminaire à Paris début novembre, j'essaierai d'en profiter à ce moment là mais je crains de ne rien pouvoir faire d'ici là.
+
+J'ai besoin d'une assurance que vous me protégerez si les choses tournent mal.
+
+MDG
+
+===========================================================================================================
+Content-Type: multipart/mixed
+MIME-Version: 1.0
+Return-Path: <mathilde.deguerigny@aeroguard-technologies.eu>
+From: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+To: NFQ <contact@aerodynamics-riograndese.site>
+Subject: Envoi de documents internes
+Date: Thu, 09 Nov 2023 15:42:51 +0100
+Content-Type: multipart/mixed; boundary="boundary-2"
+MIME-Version: 1.0
+
+--boundary-2
+Content-Type: text/plain; charset="utf-8"
+
+NFQ,
+
+Je joins des ébauches récentes sur le prototype "Eagle". Gardez ces informations confidentielles.
+Je crois que nous allons connaître une période de tourmente. 
+Nous avons fait une erreur en omettant de déclarer un end-user sur l'exportation d'un matériel comportant un composant ITAR et nous risquons de le payer très cher. On parle de plusieurs millions d'amende. 
+
+MDG
+
+--boundary-2
+Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document; name="Ebauches_Prototype_Eagle.docx"
+Content-Disposition: attachment; filename="Ebauches_Prototype_Eagle.docx"
+Content-Transfer-Encoding: base64
+
+[Metadata only: DOCX attachment - Prototype drafts]
+--boundary-2--
+
+===========================================================================================================
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <mathilde.deguerigny@aeroguard-technologies.eu>
+From: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+To: NFQ <contact@aerodynamics-riograndese.site>
+Subject: =?utf-8?q?Premi=C3=A8re_mise_=C3=A0_jour?=
+Date: Tue, 20 Dec 2022 16:45:12 +0100
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+NFQ,
+Comme convenu, voici quelques éléments sur le projet "Eagle". 
+L'équipe de R&D avance sur la conception d'un drone biomimétique. Les premiers tests internes ont été concluants, mais il reste de nombreux ajustements à faire sur l'aérodynamisme.
+
+Nous restons discrets. Faites-moi savoir pour le paiement.
+
+MDG
+
+
+===========================================================================================================
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <mathilde.deguerigny@aeroguard-technologies.eu>
+From: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+To: NFQ <contact@aerodynamics-riograndese.site>
+Subject: Informations sensibles
+Date: Thu, 08 Aug 2024 16:42:18 +0200
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+NFQ,
+
+J'ai des informations sur les nouvelles fonctions d'attaque du drone mais c'est assez risqué car l'équipe technique est très affectée par les départs et l'ambiance générale commence à devenir très tendue. 
+Le directeur technique ne quitte plus le laboratoire donc je commence à avoir du mal à récupérer des éléments. 
+Vous devez me certifier que la compensation en vaut la peine.
+
+MDG
+
+
+============================================================================================================
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <contact@aerodynamics-riograndese.site>
+From: NFQ <contact@aerodynamics-riograndese.site>
+To: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+Subject: Nouvelles instructions
+Date: Mon, 05 Feb 2024 08:15:22 +0100
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+Mathilde, 
+
+Je vous propose d'augmenter votre rétribution. Pour cela, il faut que vous fassiez en sorte de déteriorer fortement le climat social au sein d'Aeroguard. 
+Vous devez pousser les cadres, surtout les ingénieurs, à quitter l'entreprise. Ne vous inquiétez pas pour votre sort personnel si Aeroguard venant à sombrer, nous nous occuperons de votre avenir. 
+A votre poste, vous êtes la mieux placée pour cette tâche. 
+Si vous êtes d'accord, votre prochain virement sera de 9 750 euros. 
+
+NFQ
+
+
+============================================================================================================
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <contact@aerodynamics-riograndese.site>
+From: NFQ <contact@aerodynamics-riograndese.site>
+To: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+Subject: =?utf-8?q?RE=3A_Premi=C3=A8re_mise_=C3=A0_jour?=
+Date: Wed, 21 Dec 2022 10:30:23 +0100
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+Merci Mathilde. 
+
+C'est un bon début. Un virement de 5 000 euros sera effectué sur le compte convenu. 
+Continuez de me tenir informé. Nous pourrions demander plus de détails techniques la prochaine fois.
+
+NFQ
+
+
+============================================================================================================
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <mathilde.deguerigny@aeroguard-technologies.eu>
+From: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+To: NFQ <contact@aerodynamics-riograndese.site>
+Subject: =?utf-8?q?Mises_=C3=A0_jour_et_retards?=
+Date: Wed, 07 Jun 2023 14:52:18 +0200
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+NFQ,
+Les développements sur "Eagle" prennent plus de temps que prévu en raison de certains problèmes techniques avec le moteur et le système de contrôle. 
+
+Je vous enverrai les derniers rapports dès que je les aurai.
+
+MDG
+
+
+============================================================================================================
+Content-Type: multipart/mixed
+MIME-Version: 1.0
+Return-Path: <mathilde.deguerigny@aeroguard-technologies.eu>
+From: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+To: NFQ <contact@aerodynamics-riograndese.site>
+Subject: =?utf-8?q?D=C3=A9veloppements?=
+Date: Fri, 15 Mar 2024 14:23:45 +0100
+Content-Type: multipart/mixed; boundary="boundary-3"
+MIME-Version: 1.0
+
+--boundary-3
+Content-Type: text/plain; charset="utf-8"
+
+NFQ,
+
+Je vous envoie les derniers rapports techniques. L'équipe commence à travailler sur l'intégration de nouvelles capacités d'attaque pour le prototype "Eagle".
+Toutefois ils rencontrent quelques problèmes de stabilité lors des essais en vol. 
+J'ai commencé le travail en interne. 2 ingénieurs m'ont déjà annoncé leur départ pour une autre entreprise. Les finances sont dans le rouge suite à l'amende de 10 millions donc il n'est pas difficile de générer un climat d'inquiétude. 
+J'espère que vous savez ce que vous faites et que vous tiendrez parole si je dois être touchée. 
+
+MDG
+
+--boundary-3
+Content-Type: application/pdf; name="Rapport_Technique_Mai2024.pdf"
+Content-Disposition: attachment; filename="Rapport_Technique_Mai2024.pdf"
+Content-Transfer-Encoding: base64
+
+[Metadata only: PDF attachment - Technical report May 2024]
+--boundary-3--
+
+
+============================================================================================================
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <contact@aerodynamics-riograndese.site>
+From: NFQ <contact@aerodynamics-riograndese.site>
+To: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+Subject: =?utf-8?q?RE=3A_D=C3=A9veloppements?=
+Date: Sat, 16 Mar 2024 10:15:27 +0100
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+Très bon travail, Mathilde. Un virement de 9 750 euros est parti hier. Continuez de me fournir les mises à jour. 
+Le moment est crucial pour notre projet.
+
+NFQ
+
+============================================================================================================
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <contact@aerodynamics-riograndese.site>
+From: NFQ <contact@aerodynamics-riograndese.site>
+To: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+Subject: RE: Envoi de documents internes
+Date: Sun, 03 Dec 2023 11:28:33 +0100
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+Excellent travail Mathilde.
+
+Nous avons reçu les ébauches. 
+Le paiement de 9 650 euros est en cours. 
+Continuez à surveiller l'évolution des prototypes, notamment les tests de vol.
+Effectivement, j'ai lu l'article hier sur votre amende de 10 millions. C'est très intéressant pour nous. Je vous recontacte rapidement. 
+
+NFQ
+
+============================================================================================================
+Content-Type: multipart/mixed
+MIME-Version: 1.0
+Return-Path: <mathilde.deguerigny@aeroguard-technologies.eu>
+From: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+To: NFQ <contact@aerodynamics-riograndese.site>
+Subject: =?utf-8?q?Envoi_d=27informations_d=C3=A9taill=C3=A9es?=
+Date: Mon, 02 Sep 2024 15:27:33 +0200
+Content-Type: multipart/mixed; boundary="boundary-4"
+MIME-Version: 1.0
+
+--boundary-4
+Content-Type: text/plain; charset="utf-8"
+
+NFQ,
+Voici les derniers détails techniques sur les fonctions d'attaque. 
+J'imagine que vous parlez de la stagiaire quand vous évoquez votre "élément". Qu'elle prenne garde, Marco Verecchio m'a confié commencer à se méfier d'elle. 
+Faites-moi savoir quand le paiement est effectué.
+
+MDG
+
+--boundary-4
+Content-Type: application/pdf; name="Détails_Fonctions_Attaque_Eagle.pdf"
+Content-Disposition: attachment; filename="Détails_Fonctions_Attaque_Eagle.pdf"
+Content-Transfer-Encoding: base64
+
+[Metadata only: PDF attachment - Attack functions technical details]
+--boundary-4--
+
+
+============================================================================================================
+Content-Type: multipart/mixed
+MIME-Version: 1.0
+Return-Path: <mathilde.deguerigny@aeroguard-technologies.eu>
+From: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+To: NFQ <contact@aerodynamics-riograndese.site>
+Subject: Nouvelles informations disponibles
+Date: Wed, 15 Feb 2023 11:23:45 +0100
+Content-Type: multipart/mixed; boundary="boundary-1"
+MIME-Version: 1.0
+
+--boundary-1
+Content-Type: text/plain; charset="utf-8"
+
+NFQ,
+
+J'ai récupéré des schémas préliminaires du drone "Eagle". Je les joins à ce mail. Veuillez confirmer la réception et la compensation supplémentaire comme discuté.
+
+MDG
+
+--boundary-1
+Content-Type: application/pdf; name="Schéma_drone_EBV001.pdf"
+Content-Disposition: attachment; filename="Schéma_drone_EBV001.pdf"
+Content-Transfer-Encoding: base64
+
+[Metadata only: PDF attachment - Preliminary drone schematics]
+--boundary-1--
+
+
+============================================================================================================
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <contact@aerodynamics-riograndese.site>
+From: NFQ <contact@aerodynamics-riograndese.site>
+To: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+Subject: RE: Informations sensibles
+Date: Fri, 16 Aug 2024 11:33:42 +0200
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+Mathilde,
+Nous sommes prêts à vous refaire un paiement de 9 850 euros pour ces détails. 
+Assurez-vous que les informations sont complètes et précises car notre élément en interne a du mal à y accéder. 
+Continuez à déteriorer le climat social, nous entrerons bientôt dans la phase finale de notre opération.
+
+NFQ
+
+
+============================================================================================================
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <notifications.transferts@fpel.fr>
+From: Service Transferts FPEL <notifications.transferts@fpel.fr>
+To: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+Subject: SWIFT Transfer Notification - MT103 28743
+Date: Thu, 22 Dec 2022 14:17:33 +0200
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+Dear Customer,
+
+Please find below the SWIFT MT103 message for your received transfer:
+
+[SWIFT_MESSAGE]
+{1:F01BCRIRRPPAXXX0000000000}{2:I103FPELFR21XXXXN}{4:
+:20:28743
+:23B:CRED
+:32A:221222EUR5000,00
+:50K:/LI49208765432109876543210
+INNOVEX CAPITAL
+BADWEGLI
+9490 VADUZ
+LIECHTENSTEIN
+:59:/FR45987654321098765432109
+MATHILDE DE GUERIGNY
+12 AVENUE DES CHAMPS
+16000 ANGOULEME, FRANCE
+:70:SERVICES RENDERED
+:71A:SHA
+-}
+[/SWIFT_MESSAGE]
+
+Best regards,
+FPEL Transfer Department
+
+
+============================================================================================================
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <contact@aerodynamics-riograndese.site>
+From: NFQ <contact@aerodynamics-riograndese.site>
+To: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+Subject: =?utf-8?q?RE=3A_Mises_=C3=A0_jour_et_retards?=
+Date: Thu, 15 Jun 2023 16:30:27 +0200
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+Merci pour les informations, Mathilde. 
+
+Prenez votre temps, mais ne laissez rien passer. Nous avons besoin de tous les détails sur ce prototype. 
+Une compensation supplémentaire est en discussion.
+
+NFQ
+
+
+============================================================================================================
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <contact@aerodynamics-riograndese.site>
+From: NFQ <contact@aerodynamics-riograndese.site>
+To: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+Subject: =?utf-8?q?RE=3A_Envoi_d=27informations_d=C3=A9taill=C3=A9es?=
+Date: Thu, 05 Sep 2024 08:45:22 +0200
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+Bien reçu, Mathilde. 
+
+Le virement de 9 850 euros a été fait ce matin. Assurez-vous de ne rien laisser au hasard, surtout avec la surveillance qui augmente.
+
+NFQ
+
+
+============================================================================================================
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <contact@aerodynamics-riograndese.site>
+From: NFQ <contact@aerodynamics-riograndese.site>
+To: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+Subject: RE:Nouvelles instructions
+Date: Fri, 01 Mar 2024 09:12:33 +0100
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+Mathilde
+
+Vous avez pris la bonne décision. Un virement de 9 750 euros est prêt à partir. 
+Où en est le développement de l'Eagle ? 
+J'espère que vous faites ce qu'il faut en interne. Si vous rencontrez des difficultés faites le moi savoir. 
+Nous allons vous envoyer un renfort mais je ne peux vous en dire plus à ce stade. 
+
+NFQ
+
+============================================================================================================
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <contact@aerodynamics-riograndese.site>
+From: NFQ <contact@aerodynamics-riograndese.site>
+To: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+Subject: =?utf-8?q?RE=3A_Pr=C3=A9occupations?=
+Date: Mon, 28 Oct 2024 09:15:27 +0100
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+TWF0aGlsZGUsCgpOZSB2b3VzIGlucXVpw6l0ZXogcGFzLiBOb3VzIGF2b25zIGRlcyBtb3llbnMg
+cG91ciB2b3VzIHByb3TDqWdlci4gCkNvbnRpbnVleiBkZSBmYWlyZSB2b3RyZSB0cmF2YWlsLCBl
+dCB0b3V0IGlyYSBiaWVuLiBWb3VzIMOqdGVzIHRyb3AgaW1wbGlxdcOpZSBwb3VyIHJlY3VsZXIg
+bWFpbnRlbmFudC4gCk5vdXMgYXR0ZW5kcm9ucyBub3ZlbWJyZSwgcGFzIGRlIHByb2Jsw6htZS4g
+SmUgc2VyYWkgZW4gdm95YWdlIMOgIENpdWRhZCBEZWwgU29sIHRvdXQgbGUgbW9pcyBkZSBOb3Zl
+bWJyZSwgamUgbmUgcmV2aWVuZHJhaSBlbiBGcmFuY2UgcXVlIGxlIDI2LiAKSmUgc2VyYWkgw6Ag
+QW5nb3Vsw6ptZSBsZSAyNywgYXJyYW5nZXotdm91cyBwb3VyIG1ldHRyZSBsYSBtYWluIHN1ciBs
+ZXMgcGxhbnMgZCdpY2kgbMOgLCB2b3VzIG1lIGxlcyByZW1ldHRyZXogY2Ugam91ciBsw6AuIAoK
+UGFyIGNvbnRyZSBub3VzIGF2b25zIGTDuyBmYWlyZSBmYWNlIMOgIHVuZSB0cmFoaXNvbiBlbiBp
+bnRlcm5lIGRlIG5vdHJlIGPDtHTDqSBldCBqZSBuZSB2ZXV4IHBsdXMgdXRpbGlzZXIgbGVzIG1h
+aWxzLiAKQ3LDqWV6IHVuIGNvbXB0ZSBzdXIgVGVsZWdyYW0sIG5vdXMgw6ljaGFuZ2Vyb25zIHBh
+ciBjZSBiaWFpcyBkJ2ljaSBsZSAyNy4gIAoKTkZR
+-----BEGIN PGP SIGNATURE-----
+
+wsBcBAABCgAGBQJnJnx0AAoJEB6h+2eEappsujoH/Rj+Re7OFglrRMDPEHZQIhSE
+6fJLQg00dBUgDBYks+bXS/UtDE9wxIE71bhtYjoD14JAQmk00ocPMLOrEmaGjnMf
+Lt7/+M3qJtFHo+h/jNqOdPLVwBBHWw62Ed09HITzTOMRnAxMiIdqWolZxt64Xo+O
+l6oow+E5YxijTHsilYIc2rrVDpCwfik4jExIkzV4pRNSqGfbHvi7ecUn8m7oVEib
+wJS3OHn8GmSzRJTjMFO36RaSU8LlJsTgq/H2uEtB3Zr8tddiFHdA5U7knuAHXlzl
+JNxbsXMQpnP1PgeiSJB8Y0ReBB6S3f5t/CuPwrMC3DfTVMA1O0jBpCJyVdSb+kI=
+=I3T4
+-----END PGP SIGNATURE-----
+
+
+============================================================================================================
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <notifications.transferts@fpel.fr>
+From: Service Transferts FPEL <notifications.transferts@fpel.fr>
+To: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+Subject: SWIFT Transfer Notification - MT103 30875
+Date: Fri, 15 Mar 2024 10:23:45 +0200
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+Dear Customer,
+
+Please find below the SWIFT MT103 message for your received transfer:
+
+[SWIFT_MESSAGE]
+{1:F01BCRIRRPPAXXX0000000000}{2:I103FPELFR21XXXXN}{4:
+:20:30875
+:23B:CRED
+:32A:240315EUR9750,00
+:50K:/LI49208765432109876543210
+INNOVEX CAPITAL
+BADWEGLI
+9490 VADUZ
+LIECHTENSTEIN
+:59:/FR45987654321098765432109
+MATHILDE DE GUERIGNY
+12 AVENUE DES CHAMPS
+16000 ANGOULEME, FRANCE
+:70:SERVICES RENDERED
+:71A:SHA
+-}
+[/SWIFT_MESSAGE]
+
+Best regards,
+FPEL Transfer Department
+
+
+============================================================================================================ 
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <notifications.transferts@fpel.fr>
+From: Service Transferts FPEL <notifications.transferts@fpel.fr>
+To: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+Subject: SWIFT Transfer Notification - MT103 32098
+Date: Thu, 5 Sep 2024 08:15:27 +0200
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+Dear Customer,
+
+Please find below the SWIFT MT103 message for your received transfer:
+
+[SWIFT_MESSAGE]
+{1:F01BCRIRRPPAXXX0000000000}{2:I103FPELFR21XXXXN}{4:
+:20:32098
+:23B:CRED
+:32A:240905EUR9850,00
+:50K:/LI49208765432109876543210
+INNOVEX CAPITAL
+BADWEGLI
+9490 VADUZ
+LIECHTENSTEIN
+:59:/FR45987654321098765432109
+MATHILDE DE GUERIGNY
+12 AVENUE DES CHAMPS
+16000 ANGOULEME, FRANCE
+:70:SERVICES RENDERED
+:71A:SHA
+-}
+[/SWIFT_MESSAGE]
+
+Best regards,
+FPEL Transfer Department
+
+
+============================================================================================================
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Return-Path: <contact@aerodynamics-riograndese.site>
+From: NFQ <contact@aerodynamics-riograndese.site>
+To: Mathilde de Guerigny <mathilde.deguerigny@aeroguard-technologies.eu>
+Subject: RE: Proposition de collaboration
+Date: Fri, 18 Nov 2022 09:15:47 +0100
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+
+Mathilde,
+
+Je vous assure que notre coopération sera mutuellement bénéfique. 
+Nous avons besoin d'informations sur les avancées du projet "Eagle". En contrepartie, nous prendrons soin de vos préoccupations financières. 
+Commençons doucement. Une simple mise à jour sur le projet suffira pour cette fois.
+
+NFQ
+

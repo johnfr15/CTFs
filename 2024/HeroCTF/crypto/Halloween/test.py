@@ -1,0 +1,31 @@
+def recover_plaintext(ciphertext, keystream):
+    # Get the length of the ciphertext
+    ciphertext_length = len(ciphertext)
+    
+    # Initialize an empty byte array for the plaintext
+    plaintext = bytearray(ciphertext_length)
+
+    # XOR each byte of the ciphertext with the corresponding byte of the keystream
+    for i in range(ciphertext_length):
+        plaintext[i] = ciphertext[i] ^ keystream[i]
+
+    return bytes(plaintext)
+
+# Example usage
+ciphertext = bytes.fromhex("8bfa88c4f1a0be533c78adf6d940369f3253bb709af096fd6e8a3ac51cf86c35690463555eb2fca5186b60a181c4019345c9712e92474957795c8ab43f5be07ffc1b7c836405352cd7ebc93cef")  # Your actual ciphertext
+keystream = bytes.fromhex('afb4f643766f92321add2381d24a0d55f74212ee9087bd0970a814d8e040dbd96d64c3c86a9386421af7eba2c4bdacb2c69d81f22717f7062107451a0783e794b34e40c9ca4f2677a3b7de3ac4e3d0f4bb972bb121eb4cdeda9eab22672f3b608c2c9131db2bd8d8525c10562b1013082656fbef12ede5fa77fe14fe78664dca6d5ad7f52a77e8edf277f4a98dc78baae25db1542fe377d978aa70613dfc5ae5012dcb1503cec55c5bfff4f16ff284a30d2f815e955305c79219fb62de9f62ecbea166db154e80f330fc3f32d652fc96e9b667778655fa67b3ae7332514369b2d5c19182d7c447c7d796caa609544b204e149de93a7d1ff535dd1fc34b587092afb4f643766f92321add2381d24a0d55f74212ee9087bd0970a814d8e040dbd96d64c3c86a9386421af7eba2c4bdacb2c69d81f22717f7062107451a0783e794b34e40c9ca4f2677a3b7de3ac4e3d0f4bb972bb121eb4cdeda9eab22672f3b608c2c9131db2bd8d8525c10562b1013082656fbef12ede5fa77fe14fe78664dca6d5ad7f52a77e8edf277f4a98dc78baae25db1542fe377d978aa70613dfc5ae5012dcb1503cec55c5bfff4f16ff284a30d2f815e955305c79219fb62de9f62ecbea166db154e80f330fc3f32d652fc96e9b667778655fa67b3ae7332514369b2d5c19182d7c447c7d796caa609544b204e149de93a7d1ff535dd1fc34b587092afb4f643766f92321add2381d24a0d55f74212ee9087bd0970a814d8e040dbd96d64c3c86a9386421af7eba2c4bdacb2c69d81f22717f7062107451a0783e794b34e40c9ca4f2677a3b7de3ac4e3d0f4bb972bb121eb4cdeda9eab22672f3b608c2c9131db2bd8d8525c10562b1013082656fbef12ede5fa77fe14fe78664dca6d5ad7f52a77e8edf277f4a98dc78baae25db1542fe377d978aa70613dfc5ae5012dcb1503cec55c5bfff4f16ff284a30d2f815e955305c79219fb62de9f62ecbea166db154e80f330fc3f32d652fc96e9b667778655fa67b3ae7332514369b2d5c19182d7c447c7d796caa609544b204e149de93a7d1ff535dd1fc34b587092afb4f643766f92321add2381d24a0d55f74212ee9087bd0970a814d8e040dbd96d64c3c86a9386421af7eba2c4bdacb2c69d81f22717f7062107451a0783e794b34e40c9ca4f2677a3b7de3ac4e3d0f4bb972bb121eb4cdeda9eab22672f3b608c2c9131db2bd8d8525c10562b1013082656fbef12ede5fa77fe14fe78664dca6d5ad7f52a77e8edf277f4a98dc78baae25db1542fe377d978aa70613dfc5ae5012dcb1503cec55c5bfff4f16ff284a30d2f815e955305c79219fb62de9f62ecbea166db154e80f330fc3f32d652fc96e9b667778655fa67b3ae7332514369b2d5c19182d7c447c7d796caa609544b204e149de93a7d1ff535dd1fc34b587092afb4f643766f92321add2381d24a0d55f74212ee9087bd0970a814d8e040dbd96d64c3c86a9386421af7eba2c4bdacb2c69d81f22717f7062107451a0783e794b34e40c9ca4f2677a3b7de3ac4e3d0f4bb972bb121eb4cdeda9eab22672f3b608c2c9131db2bd8d8525c10562b1013082656fbef12ede5fa77fe14fe78664dca6d5ad7f52a77e8edf277f4a98dc78baae25db1542fe377d978aa70613dfc5ae5012dcb1503cec55c5bfff4f16ff284a30d2f815e955305c79219fb62de9f62ecbea166db154e80f330fc3f32d652fc96e9b667778655fa67b3ae7332514369b2d5c19182d7c447c7d796caa609544b204e149de93a7d1ff535dd1fc34b587092')  # Your extracted keystream (1280 bytes)
+
+# Recover the plaintext using a sliding window over the keystream
+# Iterate through every possible starting point in the keystream
+for i in range(len(keystream)):  # This will iterate over the entire keystream
+    # Create a keystream slice that wraps around using modulo
+    keystream_slice = bytearray(len(ciphertext))
+    for j in range(len(ciphertext)):
+        keystream_slice[j] = keystream[(i + j) % len(keystream)]
+
+    plaintext = recover_plaintext(ciphertext, keystream_slice)  # Use the sliced keystream
+    
+    try:
+        print(f"Starting index {i}: {plaintext.decode('utf-8')}")  # Try to decode the plaintext
+    except UnicodeDecodeError:
+        print(f"Starting index {i}: [Non-decodable data]")  # Handle non-decodable plaintext

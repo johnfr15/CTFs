@@ -1,0 +1,20 @@
+[x] Starting local process './got' argv=[b'./got'] 
+[+] Starting local process './got' argv=[b'./got'] : pid 76701
+[DEBUG] Received 0x9a bytes:
+    b"Hey ! I've never seen Game of Thrones and i think i misspelled a name, can you help me ?\n"
+    b'Which name is misspelled ?\n'
+    b'1. John\n'
+    b'2. Daenarys\n'
+    b'3. Bran\n'
+    b'4. Arya\n'
+    b'> '
+[DEBUG] Sent 0x5 bytes:
+    b'John\n'
+[x] Receiving all data
+[x] Receiving all data: 30B
+[*] Process './got' stopped with exit code 0 (pid 76701)
+[DEBUG] Received 0x7b bytes:
+    b"Oh really ? What's the correct spelling ?\n"
+    b"> Thanks for the help, next time i'll give you a shell, i already prepared it :)\n"
+[x] Receiving all data: 153B
+[+] Receiving all data: Done (153B)

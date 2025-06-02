@@ -1,0 +1,19 @@
+services:
+  taskvault-varnish:
+    build: ./src/varnish/
+    ports:
+      - "8000:8000"
+    environment:
+      - ADMIN_KEY=key_placeholder
+    restart: unless-stopped
+
+  taskvault-apache2:
+    build: ./src/apache2
+    restart: unless-stopped
+
+  taskvault-app:
+    build: ./src/app
+    environment:
+      - ADMIN_KEY=key_placeholder
+      - FLAG=FCSC{flag_placeholder}
+    restart: unless-stopped

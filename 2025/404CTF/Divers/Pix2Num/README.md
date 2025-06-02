@@ -1,0 +1,1 @@
+Dans le zip se trouvve un fichier étant un grand nombre, on peut suggère que ce nombre sont l'assemblage de chaque pixel 1 étant un pixel blanc et 0 un noir

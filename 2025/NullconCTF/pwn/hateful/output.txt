@@ -1,0 +1,15 @@
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             ELF, 64-bit LSB shared object, AMD x86-64, version 1 (GNU/Linux)
+1266621       0x1353BD        bix header, header size: 64 bytes, header CRC: 0xF30F6F, created: 2045-04-05 17:04:00, image size: 987531 bytes, Data Address: 0x90000000, Entry Point: 0xF30F6F95, data CRC: 0xA0000000, OS: pSOS, CPU: AVR, image name: ""
+1662633       0x195EA9        Unix path: /usr/share/locale
+1678820       0x199DE4        Unix path: /var/run/keyservsock
+1679369       0x19A009        Copyright string: "Copyright (C) 2022 Free Software Foundation, Inc."
+1679776       0x19A1A0        Unix path: /usr/lib/x86_64-linux-gnu/gconv
+1681776       0x19A970        Unix path: /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+1682184       0x19AB08        Unix path: /usr/share/locale/%L/%N:/usr/share/locale/%L/LC_MESSAGES/%N:/usr/share/locale/%l/%N:/usr/share/locale/%l/LC_MESSAGES/%N:
+1699192       0x19ED78        Unix path: /var/run/utmp
+1699840       0x19F000        Unix path: /usr/share/locale
+1702960       0x19FC30        Unix path: /usr/share/locale/%L/%N:/usr/share/locale/%L/LC_MESSAGES/%N:/usr/share/locale/%l/%N:/usr/share/locale/%l/LC_MESSLC_MESSAGES/%N:
+

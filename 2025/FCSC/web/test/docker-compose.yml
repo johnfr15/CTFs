@@ -1,0 +1,19 @@
+services:
+  taskvault-varnish:
+    image: anssi/fcsc2025-web-taskvault-varnish:latest
+    ports:
+      - "8000:8000"
+    environment:
+      - ADMIN_KEY=6d02ed57299292a47615254957d073cc75cc7855248684960946838c1f786081
+    restart: unless-stopped
+
+  taskvault-apache2:
+    image: anssi/fcsc2025-web-taskvault-apache2:latest
+    restart: unless-stopped
+
+  taskvault-app:
+    image: anssi/fcsc2025-web-taskvault:latest
+    environment:
+      - ADMIN_KEY=6d02ed57299292a47615254957d073cc75cc7855248684960946838c1f786081
+      - FLAG=FCSC{1d371153caa2fde47d9970a5d214edf82be573e6bcb976a27c02606d77195efe}
+    restart: unless-stopped
