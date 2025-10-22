@@ -10,8 +10,7 @@
 
 **Tags:** medium
 
-## Notes
-
+![intro](./img/intro.png)
 
 ## 1. Find kernel module
 
